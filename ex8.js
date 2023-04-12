@@ -10,7 +10,9 @@
 let veces = 5
 let i = 0
 
-while (i<=veces) {
+while (i<veces) {
     console.log("Ejecuto!")
     i++
 }
+
+// Porque estaba escrito que i era más pequeña o igual a veces, y dado que i es 0 y veces es 5, estaba contanto hasta 5 y, por lo tanto, se ejecutaba 6 veces. Al cambiar el signo a solo menor que, cuenta hasta 4.

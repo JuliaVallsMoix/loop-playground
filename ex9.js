@@ -11,5 +11,7 @@ let i=0;
 
 while(i<n) {
     console.log("Ejecutar!")
+    i++
 }
 
+// Porque faltaba el i++, que indica que se vaya sumando +1 a cada valor de i.

@@ -21,6 +21,16 @@ for (let i=0;i<palabraDelDia.length;i++) {
     let siguienteLetraIntroducida = palabraIntroducida[i];
 
     // Tu código a partir de aquí, dentro del bucle
+
+    if (siguienteLetraIntroducida = palabraIntroducida.charAt(2)) {
+        console.log(`la letra ${palabraIntroducida.charAt(2)} es correcta, PERO se encuentra en una posición diferente`)
+    }
+    if (siguienteLetraIntroducida = palabraIntroducida.charAt(0) .charAt(1)) {
+        console.log(`la letra ${palabraIntroducida.charAt(0) .charAt(1)} es correcta`)
+    }
+    if (siguienteLetraIntroducida = palabraIntroducida.charAt(3) .charAt(4)) {
+        console.log(`la letra ${palabraIntroducida.charAt(3) .charAt(4)} NO es correcta`)
+    }
 }
 
 // Resultado esperado:

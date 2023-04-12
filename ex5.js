@@ -8,8 +8,10 @@
  * Reestricción: SOLO puedes cambiar el valor de la variable 'veces' para conseguirlo
  */
 
- let veces = 5;
+ let veces = 15;
 
  for (let i=5; i<veces; i++) {
      console.log("No me voy a ejecutar...")
  }
+
+//  No se ejecuta porque si veces es igual a 5, i no puede ser menor que 5.
