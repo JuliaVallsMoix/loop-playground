@@ -12,7 +12,7 @@
  * 3. Si la siguiente letra que ha introducido el usuario se encuentra en la palabra del dia, PERO no es la posición correcta, mostrar por consola: "la letra {letra} es correcta, PERO se encuentra en una posición diferente"
  */
 
-let palabraDelDia= "bucle";
+let palabraDelDia = "bucle";
 let palabraIntroducida = "bueno";
 
 for (let i=0;i<palabraDelDia.length;i++) {
@@ -21,15 +21,17 @@ for (let i=0;i<palabraDelDia.length;i++) {
     let siguienteLetraIntroducida = palabraIntroducida[i];
 
     // Tu código a partir de aquí, dentro del bucle
-
-    if (siguienteLetraIntroducida = palabraIntroducida.charAt(2)) {
-        console.log(`la letra ${palabraIntroducida.charAt(2)} es correcta, PERO se encuentra en una posición diferente`)
+// console.log("La siguiente letra correcta es: ", siguienteLetraCorrecta);
+// console.log("La siguiente letra introducida es: ", siguienteLetraIntroducida);
+   
+if (siguienteLetraIntroducida === siguienteLetraCorrecta) {
+        console.log(`la letra ${siguienteLetraIntroducida} es correcta`)
     }
-    if (siguienteLetraIntroducida = palabraIntroducida.charAt(0) .charAt(1)) {
-        console.log(`la letra ${palabraIntroducida.charAt(0) .charAt(1)} es correcta`)
+    else if (palabraDelDia.includes(siguienteLetraIntroducida)) {
+        console.log(`la letra ${siguienteLetraIntroducida} es correcta, PERO se encuentra en una posición diferente`)
     }
-    if (siguienteLetraIntroducida = palabraIntroducida.charAt(3) .charAt(4)) {
-        console.log(`la letra ${palabraIntroducida.charAt(3) .charAt(4)} NO es correcta`)
+    else {
+        console.log(`la letra ${siguienteLetraIntroducida} NO es correcta`); 
     }
 }
 
