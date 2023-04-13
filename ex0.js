@@ -13,4 +13,22 @@ let mes = 4;
 
 // Escribir a partir de aquí
 
+switch (Math.ceil(mes / 3)) {
+    case 1:
+      console.log("Nos encontramos en el primer trimestre");
+      break;
+    case 2:
+      console.log("Nos encontramos en el segundo trimestre");
+      break;
+    case 3:
+      console.log("Nos encontramos en el tercer trimestre");
+      break;
+    case 4:
+      console.log("Nos encontramos en el cuarto trimestre");
+      break;
+    default:
+      console.log("Mes inválido");
+  }
+  
+
 
